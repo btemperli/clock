@@ -18,8 +18,8 @@
 
     <!-- Scripts
   ================================================== -->
-    <script src="javascripts/script.js"></script>
-    <script src="javascripts/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- CSS
   ================================================== -->
@@ -67,7 +67,7 @@
 
     <!-- JS
     ================================================== -->
-    <script src="javascripts/tabs.js"></script>
+    <script src="js/tabs.js"></script>
 
 <!-- End Document
 ================================================== -->
