@@ -8,11 +8,17 @@
 A simple and small website, just for fun.
 This Project was a small thing i have made near my first internship as a web developer at [Bricks&Wide](http://bricks-wide.ch) in the year 2012
 
+### Versions
+
+* 1.1: Corrections for summer & winter - time.
+* 1.0: Initial Release
+
 ### Technologies
 * Php
 * javascript
 * jQuery
 * HTML & CSS
+
 
 ### Inspiration
 Inspired by: [qlocktwo.com](http://www.qlocktwo.com/)
