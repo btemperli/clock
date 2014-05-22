@@ -1,0 +1,155 @@
+/* #Base 960 Grid
+================================================== */
+
+    .container {
+        position: relative;
+        width: 960px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .container .column {
+        float: left;
+        display: inline;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .row {
+        margin-bottom: 20px;
+    }
+
+    /* Nested Column Classes */
+    .column.alpha {
+        margin-left: 0;
+    }
+
+    .column.omega {
+        margin-right: 0;
+    }
+
+    /* Base Grid */
+    .container .one.column {
+        width: 40px;
+    }
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+        .container {
+            width: 768px;
+            margin: 0 auto;
+        }
+
+        .container .column {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .container .one.column {
+            width: 28px;
+        }
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    @media only screen and (max-width: 767px) {
+
+        .container {
+            width: 460px;
+            font-size: 16px;
+            line-height: 30px;
+            margin: 0 auto;
+        }
+
+        .container .column {
+            margin: 0;
+        }
+
+        .container .one.column {
+            width: 16px;
+        }
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+        .container {
+            width: 460px;
+            font-size: 30px;
+            line-height: 40px;
+            margin: 0 auto;
+        }
+
+        .container .column {
+            margin: 0;
+        }
+
+        .container .one.column {
+            width: 28px;
+        }
+    }
+
+/* #Mobile (Portrait)
+================================================== */
+    @media only screen and (max-width: 479px) {
+
+        .container {
+            width: 260px;
+        }
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+        content: '\0020';
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .row:after,
+    .clearfix:after {
+        clear: both;
+    }
+
+    .row,
+    .clearfix {
+        zoom: 1;
+    }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
