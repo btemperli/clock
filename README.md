@@ -1,4 +1,4 @@
-# Clock.temper.li
+# clock.temper.li
 
  
 ### Demonstration
@@ -23,7 +23,7 @@ Inspired by: [qlocktwo.com](http://www.qlocktwo.com/)
 * [http://github.com/btemperli](http://github.com/btemperli)
 
 ### Copyright and License
-Code and documentation copyright 2012-2014 Beat Temperli. Code released under [the MIT license](https://github.com/btemperli/clock/blob/develop/LICENSE).
+Code and documentation copyright 2012-2014 Beat Temperli. Code released under [the MIT license](LICENSE).
 
 ---
 (c) 2012 [Beat Temperli](mailto:beat@temper.li)
