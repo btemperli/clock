@@ -6,6 +6,7 @@
 
 ### Description
 A simple and small website, just for fun.
+This Project was a small thing i have made near my first internship as a web developer at [Bricks&Wide](http://bricks-wide.ch) in the year 2012
 
 ### Technologies
 * Php
@@ -23,8 +24,8 @@ Inspired by: [qlocktwo.com](http://www.qlocktwo.com/)
 * [http://github.com/btemperli](http://github.com/btemperli)
 
 ### Copyright and License
-Code and documentation copyright 2012-2014 Beat Temperli. Code released under [the MIT license](LICENSE).
+Copyright 2012-2014 Beat Temperli. Released under the [MIT license](LICENSE).
 
 ---
-(c) 2012 [Beat Temperli](mailto:beat@temper.li)
+(c) 2014 [Beat Temperli](mailto:beat@temper.li)
 
